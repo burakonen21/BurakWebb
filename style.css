@@ -533,3 +533,26 @@ body {
     }
 }
 
+html,
+body {
+    min-height: 100%;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+body > .container {
+    flex: 1;
+}
+
+.site-footer {
+    width: 100%;
+    margin-top: auto;
+    padding: 20px 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
